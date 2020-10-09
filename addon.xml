@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<addon id="plugin.video.ndk" name="[COLOR blue]~[/COLOR][COLOR red]N[/COLOR][COLOR white]DK[/COLOR][COLOR blue]~[/COLOR]" version="3.0" provider-name="[B]IPTV[/B]">
+  <requires>
+    <import addon="xbmc.python" version="2.1.0" />
+  </requires>
+  <extension point="xbmc.python.pluginsource"
+            library="default.py">
+        <provides>video</provides>
+  </extension>
+  <extension point="xbmc.addon.metadata">
+    <platform>all</platform>
+    <summary>[B]IPTV [/B][COLOR green]Nordic[/COLOR]</summary>
+    <description>[COLOR yellowgreen] * [/COLOR]-[COLOR red]NO[/COLOR]-[COLOR white]DK[/COLOR]-[COLOR blue]TV[/COLOR]-[COLOR yellowgreen] * [/COLOR]
+ [COLOR yellow]Channels[/COLOR] from [COLOR red]Norway[/COLOR]
+ [COLOR yellow]Channels[/COLOR] from [COLOR white]Denmark[/COLOR]
+ [COLOR yellow]Channels[/COLOR] from [COLOR blue]-=TV=-[/COLOR]
+ [COLOR yellow]Channels[/COLOR] from [COLOR green]Scandinavia[/COLOR]</description>
+  </extension>
+</addon>
